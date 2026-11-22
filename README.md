@@ -1,7 +1,4 @@
 # Satawired-Emu
-Experimental PS5 emulator for Windows. Early development, not publicly released.
-
--
 Sata Wired is an experimental PlayStation 5 emulator for Windows, written in C# and C++.
 
 It is in very early development. Some titles reach the menus or get partway into
