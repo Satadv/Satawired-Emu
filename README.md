@@ -4,7 +4,6 @@
 
 <h1>Satawired</h1>
 
-<hr>
 
 <p><b>Xbox One and Xbox Series X|S software on Windows, by translation.</b></p>
 
