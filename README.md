@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 <img src="logo.png" width="260" alt="Satawired Logo">
@@ -97,4 +96,3 @@ Usage instructions will be added as features become available.
 - [ ] Windows hardware integration
 - [ ] Compatibility testing
 - [ ] Xbox software execution support
-```
