@@ -1,4 +1,4 @@
-### Satawired-Emu
+## Satawired-Emu
 
 Primary Contributor: Claude, Satawired.
 
