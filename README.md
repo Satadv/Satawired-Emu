@@ -1,34 +1,44 @@
-# Satawired-Emu
-Sata Wired is an experimental PlayStation 5 emulator for Windows, written in C# and C++.
+### Satawired-Emu
 
-It is in very early development. Some titles reach the menus or get partway into
-gameplay, but nothing is playable yet and crashes are expected.
+Primary Contributor: Claude, Satawired.
 
-## Status
+Sata Wired is an experimental Xbox Series X-focused emulator project written in C# and C++. Its long-term goal is to explore the possibility of running Windows-compatible games, with Grand Theft Auto VI (GTA VI) as a primary target.
 
-There are no public builds, and the source is not available at the moment.
-I don't plan to release anything to the public for now. If that changes, it will be posted here.
+The project is currently in very early development.
 
-Please don't open issues asking for builds, ETAs or download links.
+Status
+An executable provided by an unknown contributor may serve as a reference for researching shader translation, GPU behavior, and other emulation-related components.
 
-## Current state
+Please do not open issues requesting builds, release dates, ETAs, or download links, it will be provided when its fully done and user-friendly.
 
-- x86-64 guest code runs natively, with HLE for most kernel and system libraries
-- Vulkan renderer with a shader recompiler (many opcodes still use slow paths)
-- PFS mounting and basic save data
-- Audio output works, with occasional underruns
-- No online features (network calls are stubbed)
+Current State
+x86-64 guest code execution with native support.
+High-level emulation (HLE) for most kernel and system libraries.
+Vulkan-based renderer with an experimental shader recompiler. Many opcodes still rely on slower fallback paths.
+PFS filesystem mounting and basic save-data support.
+Working audio output, with occasional underruns.
+No online functionality. Network-related calls are currently stubbed.
+Known Issues
+Stuttering during shader compilation.
+GPU hangs on certain draw calls.
+High memory consumption.
+Incomplete shader instruction support.
+Occasional audio underruns.
+Requirements (For Testing)
+Windows 10 or Windows 11 (64-bit).
+GPU supporting Vulkan 1.3 or later.
+At least 16 GB of RAM.
 
-Known issues: shader compilation stutter, GPU hangs on some draw calls, and high memory use.
+These requirements are preliminary and may change as development progresses.
 
-## Requirements (for testing)
+Legal
 
-- Windows 10/11 x64
-- A GPU with Vulkan 1.3 support
-- 16 GB RAM
+Sata Wired does not include, distribute, or provide any firmware, encryption keys, or game files.
 
-## Legal
+Users are responsible for obtaining and dumping their own console firmware and game files.
 
-Sata Wired does not include any firmware, keys or game files, and none will be provided.
-You need to dump your own console and games. This project is not affiliated with
-or endorsed by Sony Interactive Entertainment.
+Sata Wired is an independent experimental project and is not affiliated with, endorsed by, or associated with Microsoft, Xbox, Rockstar Games, or Take-Two Interactive.
+
+All trademarks and copyrights belong to their respective owners.
+
+This project is experimental and is not intended for everyday use. Features, compatibility, and requirements are subject to change.
