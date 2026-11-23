@@ -23,10 +23,6 @@
 <a href="#roadmap">Roadmap</a>
 </p>
 
-</div>
-
----
-
 ## Satawired
 
 Satawired is an experimental Xbox-to-Windows compatibility project focused on
